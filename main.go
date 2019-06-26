@@ -19,7 +19,7 @@ var (
 
 func main(){
 	maxUid = 1000000000
-	minUid = 0
+	minUid = 99999999
 	filename = "./uid.txt"
 	
 	var file *os.File
