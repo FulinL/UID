@@ -83,3 +83,11 @@ func checkFileIsExist(filename string) bool {
     }
     return exist
 }
+
+
+
+/* 用户名分为三段思路：
+  使用三个map[int]string 分别存形容词，身份，地点三个信息，
+  在将之前生成的9位UID进行拆分，拆分为3段3位的ID，分别对应三个map 的key，
+  从而得到 不重复的用户名。
+*/
